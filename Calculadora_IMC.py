@@ -16,11 +16,11 @@ def Mostragem(IMC):
     return "Abaixo do peso."
   elif 18.50 <= IMC < 24.99:
     return "Regular."
-  elif 24.99 <= IMC < 29.99:
+  elif 25.0 <= IMC < 29.99:
     return "Sobrepeso."
-  elif 29.99 <= IMC < 34.99:
+  elif 30.0 <= IMC < 34.99:
     return "Obesidade I."
-  elif 34.99 <= IMC < 39.99:
+  elif 35.0 <= IMC < 39.99:
     return "Obesidade II."
   else:
     return "Obesidade III (obesidade mórbida)."
